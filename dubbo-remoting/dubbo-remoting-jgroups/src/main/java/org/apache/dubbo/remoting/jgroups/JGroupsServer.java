@@ -15,9 +15,9 @@ import java.util.Collection;
  * @datetime 2020/3/1 11:30 下午
  *
  */
-public class JgroupsServer extends AbstractServer {
+public class JGroupsServer extends AbstractServer {
   private JChannel channel;
-	public JgroupsServer(URL url, ChannelHandler handler) throws RemotingException {
+	public JGroupsServer(URL url, ChannelHandler handler) throws RemotingException {
 		super(url, handler);
 	}
 

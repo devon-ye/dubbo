@@ -13,10 +13,10 @@ import org.jgroups.blocks.cs.Client;
  * @datetime 2020/3/1 11:33 下午
  *
  */
-public class JgroupsClient extends AbstractClient {
+public class JGroupsClient extends AbstractClient {
     private Client client;
 
-	public JgroupsClient(URL url, ChannelHandler handler) throws RemotingException {
+	public JGroupsClient(URL url, ChannelHandler handler) throws RemotingException {
 		super(url, handler);
 	}
 

@@ -12,11 +12,11 @@ import java.net.InetSocketAddress;
  * @datetime 2020/3/1 11:27 下午
  *
  */
-public class JgroupsChannel extends AbstractChannel {
+public class JGroupsChannel extends AbstractChannel {
 
     private JChannel jChannel;
 
-	public JgroupsChannel(JChannel jChannel, URL url, ChannelHandler handler) {
+	public JGroupsChannel(JChannel jChannel, URL url, ChannelHandler handler) {
 		super(url, handler);
 		this.jChannel = jChannel;
 
@@ -36,6 +36,7 @@ public class JgroupsChannel extends AbstractChannel {
 
 	@Override
 	public boolean hasAttribute(String key) {
+
 		return false;
 	}
 
